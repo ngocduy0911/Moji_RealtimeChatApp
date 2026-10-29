@@ -1,4 +1,4 @@
-1. Giới thiệu và tính năng
+
 # Moji — Realtime Chat App
 
 Moji là ứng dụng nhắn tin thời gian thực, hỗ trợ trò chuyện trực tiếp và trò chuyện nhóm. Ứng dụng gồm frontend React và backend Node.js/Express, sử dụng MongoDB để lưu trữ dữ liệu và Socket.IO để cập nhật tin nhắn theo thời gian thực.
@@ -12,7 +12,7 @@ Moji là ứng dụng nhắn tin thời gian thực, hỗ trợ trò chuyện tr
 - Cập nhật tin nhắn, trạng thái trực tuyến và chỉ báo đang nhập theo thời gian thực
 - Xem trạng thái đã đọc và số tin nhắn chưa đọc
 - Quản lý thông tin cá nhân và ảnh đại diện
-2. Công nghệ sử dụng
+
 ## Công nghệ
 
 ### Frontend
@@ -33,7 +33,6 @@ Moji là ứng dụng nhắn tin thời gian thực, hỗ trợ trò chuyện tr
 - Cloudinary
 - Swagger UI
 
-3. Cấu trúc dự án
 ## Cấu trúc dự án
 
 ```text
@@ -56,8 +55,6 @@ Moji_RealtimeChatApp/
     │   └── App.tsx
     └── package.json
 ```
-
-4. Cài đặt và cấu hình backend
 
 ## Cài đặt và chạy ứng dụng
 
@@ -96,7 +93,6 @@ c. Chạy backend ở chế độ phát triển:
 
 Backend mặc định chạy tại `http://localhost:5001`.
 
-5. Cấu hình và chạy frontend
 ### Frontend
 
 a. Mở terminal mới và cài dependencies:
@@ -121,7 +117,6 @@ c. Chạy frontend:
 
 Frontend mặc định chạy tại `http://localhost:5173`.
 
-6. Tài liệu API
 ## Tài liệu API
 
 Khi backend đang chạy, mở Swagger UI tại:
